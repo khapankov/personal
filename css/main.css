@@ -1,0 +1,103 @@
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, li, figure {
+  margin: 0;
+  padding: 0; 
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure {
+  margin-bottom: 15px; }
+
+body {
+  font-size: 16px;
+  font-family: "Merriweather", serif;
+  line-height: 1.75;
+  font-weight: 300;
+  color: #111;
+  background-color: #FFFFFF;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* .wrapper {
+  max-width: 690px;
+  margin: auto;
+  padding: 0 15px;
+} */
+
+.wrapper {
+  max-width: 690px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.head {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.links {
+  margin-bottom: 64px;
+  width: 100%;
+  display: flex;
+}
+
+/* @media screen and (min-width: 481px) {
+  .wrapper {
+    height: 100vh;
+  }
+  .head {
+    padding-top: 30%;
+  }
+} */
+
+@media screen and (max-width: 480px) {
+  .wrapper{
+    height: auto;
+    padding-top: 24px;
+  }
+
+  .head {
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    line-height: 1.7;
+  }
+}
+
+a {
+  margin-right: 16px;
+}
+
+a:visited {
+  color: #0000EE;
+}
+
+.projects-list li {
+  list-style: none;
+}
+
+.project-card {
+  /*background-color: aliceblue;
+  border: 1px solid rgb(191, 221, 255);*/
+  margin-bottom: 20px;
+}
+
+.project-card h2 {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.project-card .meta {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #757575;
+}
+
+.project-card p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;
+  color: rgb(31, 31, 31);
+}
